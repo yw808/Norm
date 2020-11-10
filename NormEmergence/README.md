@@ -5,7 +5,7 @@ This simulator is to support the manuscript "Norm Emergence Through Conflict-Blo
 To run the simulator, you can download it and open "index.html" in your browser like Chrome or Safari. One way to download is: 
 
 1. Open "https://github.com/yw808/norm".
-2. Click the "Code" button (upper right corner of the folder "NormEmergence"), and then the "Download ZIP" button.
+2. Click the "Code" (upper right corner of the folder "NormEmergence"), and then click "Download ZIP".
 3. Extract files in the zip file.
 
 Usage: 1) Use the panel to configure parameters and see statistics; 2) Use mouse drag and wheel to scroll and zoom in/out.
