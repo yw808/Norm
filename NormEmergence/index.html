@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta http-equiv="cache-control" content="no-cache" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <script type="text/javascript" language="javascript" src="dist/main.js?v=4"></script>
+	<script type="text/javascript" language="javascript" src="dist/kdTree.js"></script>
+    <link rel="stylesheet" href="css/dat-gui.css" />
+    <title>Norm Emergence Through Conflict-Blocking Interactions in Multi-Agent Systems</title>
+	
+	<style type="text/css">
+		body {
+			margin:0px auto;
+		}
+		#descriptionLayer {
+			left: 40px;
+			top: 10px;
+			line-height:30px;
+			border:1px solid #F90;
+			font-size: 16px;
+		}
+		#loadingLayer {
+			position:fixed;
+			left: 100px;
+			top: 150px;
+			font-size: 40px;
+		}
+		
+	</style>
+	
+	
+	<script type="text/javascript" language="javascript">
+		
+	function closeDes(){
+		document.getElementById("descriptionLayer").style.display = "none";
+		document.getElementById("openDes").style.display = "block";
+	}
+	function openDes(){
+		document.getElementById("descriptionLayer").style.display = "block";
+		document.getElementById("openDes").style.display = "none";
+	}
+	</script>
+	
+</head>
+<body>
+<div id="openDes" style="display:none;font-size: 16px; cursor:pointer;color:blue;"><a onclick="openDes()">Open Description</a></div>
+<div id="descriptionLayer" style="display:none;width: 800px;">
+This simulator is to support the manuscript "Norm Emergence Through Conflict-Blocking Interactions in Multi-Agent Systems".<br/>
+Usage: 1) Use the panel to configure parameters and see statistics; <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) Use mouse drag and wheel to scroll and zoom in/out. (Tested on Chrome and Safari) <br/> 
+
+Brief Introduction: A vehicle (agent) can choose to move either on right side or on left side of the road. When two vehicles move toward each other, they are going to perform a passing (conflict-blocking) interaction. The proposed framework is applied by vehicles to perform passing interactions (where ASCS is used as the preferred strategy selection method). <br/>
+<a style="cursor:pointer;color:blue;" onclick="closeDes()">Close Description</a><br/>
+</div>
+
+<div id="loadingLayer">
+Loading Simulator... <br/>
+<font style="font-size:25px;">
+If the browser does not respond for a long time, <br/>please try with another browser, e.g., Chrome or Safari.</font>
+</div>
+
+</body>
+</html>
