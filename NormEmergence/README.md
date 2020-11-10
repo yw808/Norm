@@ -2,7 +2,7 @@
 
 This simulator is to support the manuscript "Norm Emergence Through Conflict-Blocking Interactions in Multi-Agent Systems". 
 
-To run the simulator, you can download it and open "index.html" in your browser like Chrome or Safari. One way to download is: 
+To run the simulator, please visit the preview page "https://bit.ly/3pahnz7", or download the simulator and open "index.html" in your browser like Chrome or Safari. One way to download is: 
 
 1. Open "https://github.com/yw808/norm".
 2. Click the "Code" button (upper right corner of the folder "NormEmergence"), and then click "Download ZIP".
